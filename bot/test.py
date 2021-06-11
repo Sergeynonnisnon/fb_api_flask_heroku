@@ -1,0 +1,3 @@
+#postobot
+# sekret 1a3567cf29ee2ef7e48f1cf7352fc7d3
+#id 341835460615174
