@@ -1,4 +1,8 @@
-flask
+flask~=2.0.1
 Flask-SQLAlchemy
 flask-login
 gunicorn
+Werkzeug~=2.0.1
+SQLAlchemy~=1.4.18
+slack_sdk
+git+https://github.com/mobolic/facebook-sdk.git#egg=facebook-sdk

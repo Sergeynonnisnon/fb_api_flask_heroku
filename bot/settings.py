@@ -1,15 +1,7 @@
-"""create by Sergey Tokarev nonnisnon@gmail.com"""
-import os
-from dotenv import load_dotenv
-dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
-
-if os.path.exists(dotenv_path):
-    load_dotenv(dotenv_path)
-
-FB_access_token = os.environ.get('FB_access_token')
-FB_id_groop = os.environ.get('FB_id_groop')
-FB_app_secret = os.environ.get('FB_app_secret')
-FB_app_id = os.environ.get('FB_app_id')
-creator_post_skip = os.environ.get('creator_post_skip')
-chanelSlack = os.environ.get('chanelSlack')
-api_bot_secret_Slack = os.environ.get('api_bot_secret_Slack')
+FB_access_token = 'EAAB49HwRvEMBAP3ZBN9e22ASneff82zNK7YuovaNO7l36dvCENpIKtNGPvZB0kU9Q144YAdDkHZAZAiABDt5rbjxcyQDSFsDXRiIcVpmZCCjJd7pHhxUJVCUQkOEZAw1IWPB13y5ZADwqWNDMY2Snqv2W8tFM57IMPw9e0F2oNBBMLnFi4fwlR1B3jGQGzOYfKdY9DAZAZAK81D3J8FYgNmZBCqPjSBga8L79hoZBoikLocUDLsck3EFtkp'
+FB_id_groop = '231437555407236'
+FB_app_secret = '1a3567cf29ee2ef7e48f1cf7352fc7d3'
+FB_app_id ='341835460615174'
+creator_post_skip = {'101323355496675', '101323355496673'}
+chanelSlack = '#general'
+api_bot_secret_Slack = 'xoxb-2093079666998-2100083134195-1Q4RxGP71fojmrZyl0Fg5N6t'

@@ -1,21 +1,21 @@
 {% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
 %}
-<h1 align="center">Notes</h1>
-<ul class="list-group list-group-flush" id="notes">
-  {% for note in user.notes %}
-  <li class="list-group-item">
-    {{ note.data }}
-    <button type="button" class="close" onClick="deleteNote({{ note.id }})">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </li>
-  {% endfor %}
-</ul>
-<form method="POST">
-  <textarea name="note" id="note" class="form-control"></textarea>
-  <br />
-  <div align="center">
-    <button type="submit" class="btn btn-primary">Add Note</button>
-  </div>
+<h1 align="center">register your bot</h1>
+
+<form name="newbot" id="newbot" method="POST">
+  <label for="groupid"> Your group id</label> <br>
+  <input type="text" id="groupid" name="groupid" value="123" >
+  <label for="moderators"> Your moderators
+    specify the ID of the moderators and administrators
+    of your group, separated by commas.
+    for example: 123123123,1231231232,1231242132 </label> <br>
+  <input type="text" id="moderators" name="moderators" value="123,123" ><br>
+  <label for="chanelSlack"> Your chanel in Slack #general</label> <br>
+  <input type="text" id="chanelSlack" name="chanelSlack" value="123" ><br>
+  <label for="botSlack"> Your secretcode bot in Slack </label> <br>
+  <input type="text" id="botSlack" name="botSlack" value="123" ><br>
+  <button type="submit" class="btn btn-primary" >Submit</button>
+
+
 </form>
 {% endblock %}

@@ -12,11 +12,11 @@ class FB_API:
         self.Bot = Bot(chanelSlack)
         self.DB = DB()
         self.FB_id_groop = FB_id_groop
-        self.app_token = facebook.GraphAPI().get_app_access_token(app_id=FB_app_id, app_secret=FB_app_secret)
-        print(self.app_token)
+        #self.app_token = facebook.GraphAPI().get_app_access_token(app_id=FB_app_id, app_secret=FB_app_secret)
+        #print(self.app_token)
         self.access_token = FB_access_token
 
-        self.graph = facebook.GraphAPI(access_token=self.app_token, version="8.0")
+        self.graph = facebook.GraphAPI(access_token=self.access_token , version="8.0")
 
     def _get_all_records(self):
         response = self.graph.get_object(id=self.FB_id_groop,
