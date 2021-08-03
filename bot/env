@@ -1,6 +1,6 @@
 FB_access_token = 'EAAB49HwRvEMBACZBi1OxCFyFDQNq82fdNoNOftZAidIOEIpg8jqO0j8DsGSFSRHdjK7wB5NAkuG123MfCjSUQUxyZA4OzXSFyWFsdUd4asgiUlUriQ5d2ZCPZBk2BdOwchfZByZB8brElX9DYcCokGMlXm3K3J5iZAB7a6dSPtgQBKPgwp1198JMNuZBFZCwv2TZAzwhboRc8MpFXNLrJJd79io4IFXL9ejUgiZBSrQLkZArD4uhi2N9F9130'
-FB_id_groop = '231437555407236'
-FB_app_secret = '1a3567cf29ee2ef7e48f1cf7352fc7d3'
+FB_id_groop = ''
+FB_app_secret = ''
 FB_app_id ='341835460615174'
 creator_post_skip = {'101323355496675', '101323355496673'}
 chanelSlack = '#general'
