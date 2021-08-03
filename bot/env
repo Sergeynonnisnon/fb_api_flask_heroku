@@ -4,4 +4,4 @@ FB_app_secret = '1a3567cf29ee2ef7e48f1cf7352fc7d3'
 FB_app_id ='341835460615174'
 creator_post_skip = {'101323355496675', '101323355496673'}
 chanelSlack = '#general'
-api_bot_secret_Slack = 'xoxb-2093079666998-2100083134195-1Q4RxGP71fojmrZyl0Fg5N6t'
+api_bot_secret_Slack = ''
